@@ -4,7 +4,7 @@
 
 
 .cont{
-    @apply xl:mx-[15%] 
+    @apply mx-[auto] w-[1192px]
 }
 /* mx-[45px] sm:mx-[91px] md:mx-[182px]  */
 
@@ -13,7 +13,7 @@
 }
 
 .active{
-    @apply text-[24px] font-semibold border-b-2 border-b-[#02498E] leading-none -mb-[10px]
+    @apply text-[24px] font-semibold border-b-4 border-b-[#02498E] leading-none -mb-[12px]
 }
 
 .offert-d{
