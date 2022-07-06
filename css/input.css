@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cont{
+    @apply mx-[auto] w-[1192px]
+}
+/* mx-[45px] sm:mx-[91px] md:mx-[182px]  */
+
+.input-none{
+    @apply selection:active:target:hover:focus:outline-none  outline-none 
+}
+
+.active{
+    @apply text-[24px] font-semibold border-b-4 border-b-[#02498E] leading-none -mb-[12px]
+}
+
+.offert-d{
+    @apply text-[#9ACAEC]
+}

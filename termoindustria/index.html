@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="../css/all-tailwind.css">
+
+    <script src="./navbar.js"></script>
+    <title>Document</title>
+    <!-- 
+    <style>
+        * {
+            border: solid 0.1px rgb(129, 1, 1);
+        }
+    </style> -->
+</head>
+
+<body class="">
+
+    <!-- <script>
+        let ajax = new XMLHttpRequest();
+        ajax.open("GET", "./components/navbar.html", false);
+        ajax.send();
+        document.body.innerHTML += ajax.responseText;
+    </script> -->
+    <nav-bar></nav-bar>
+
+
+
+
+    <header class="mb-[40px]">
+        <img src="./imgs/header.png" alt="">
+    </header>
+
+
+    <!-- CATEGORIAS -->
+    <section class="cont text-3 mb-[96px]">
+        <div>
+
+            <span class="text-[24px] font-semibold border-b-4 border-[#02498E] pb-[13px]">CATEGORÍAS</span>
+        </div>
+        <div class="flex justify-between space-x-[20px] mt-[35px] ">
+            <div class="flex flex-col items-center">
+                <div class="w-[384px] h-[279px] ">
+                    <img class="w-full h-auto" src="./imgs/categories/01.png" alt="">
+                </div>
+                <h4 class="uppercase text-center">OBRAS</h4>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-[384px] h-[279px] ">
+                    <img class="w-full h-auto" src="./imgs/categories/02.png" alt="">
+                </div>
+                <h4 class="uppercase text-center">OBRAS</h4>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-[384px] h-[279px] ">
+                    <img class="w-full h-auto" src="./imgs/categories/03.png" alt="">
+                </div>
+                <h4 class="uppercase text-center">OBRAS</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- offertas -->
+    <section class="cont flex h-[735px] mb-[80px]">
+        <!-- current -->
+        <div
+            class="mr-[30px] bg-white text-black border border-[#9ACAEC] w-[479] h-full flex flex-col pt-[26px] px-[32px] pb-[51px]">
+            <div class="">
+                <div class="flex justify-between">
+                    <h3 class="text-[24px] font-semibold leading-none mb-[10px]">
+                        offertas
+                    </h3>
+                    <div class="flex space-x-[26px]">
+                        <span>
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.50016 1.33334L1.8335 8.00001L8.50016 14.6667" stroke="#8A8A8D"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span>
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.49984 1.33334L8.1665 8.00001L1.49984 14.6667" stroke="#333333"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </span>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="bg-[#02498E] px-[10px] py-[4px] w-53 h-25px text-white">
+                        -18%
+                    </div>
+                </div>
+            </div>
+            <div class="mt-[40px] mb-[47px] w-[366.86px] h-[341px]">
+                <img class="w-full h-auto" src="./imgs/offert/01.png" alt="">
+            </div>
+            <div class="flex justify-center mb-[21px]">
+                <div class="flex flex-col space-x-[8px] text-center ">
+                    <span class="font-semibold">Capiteles</span>
+                    <span class="font-normal color-2">Construcción</span>
+                    <span class="font-bold color-1">G. 49.000</span>
+                </div>
+            </div>
+            <div class="pt-12 ">
+                <hr class="border border-t-[#E4E4E4] w-full mb-[12px]">
+                <div class="text-center text-[10px] font-semibold flex justify-between px-[34px] color-2 uppercase">
+                    <div class="">
+                        <p>17</p>
+                        <p>dias</p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <p>17</p>
+                        <p>dias</p>
+                    </div>
+                    <div class="flex items-center space-x-[10px]">
+                        <div class="bg-black h-2 w-2 rounded-full"></div>
+                        <div class="border border-[#8A8A8D] h-2 w-2 rounded-full"></div>
+                    </div>
+                    <div>
+                        <p>17</p>
+                        <p>dias</p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <p>17</p>
+                        <p>dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- list -->
+        <div class="w-full pt-[26px] pb-[51px]">
+
+            <nav class="pb-[8px] mb-[18px] flex justify-between border-b-4 border-b-[#9ACAEC]">
+                <h5 class="active">ofertas</h5>
+
+                <h5 class="offert-d">nuevos</h5>
+                <h5>destacados </h5>
+                <h5>mas vendidos</h5>
+
+                <div class="flex space-x-[16px]">
+                    <div class="h-2">
+
+                        <span>
+                            <svg width="10" height="12" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.50016 1.33334L1.8335 8.00001L8.50016 14.6667" stroke="#8A8A8D"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="h-2">
+                        <span>
+                            <svg width="10" height="12" viewBox="0 0 10 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.49984 1.33334L8.1665 8.00001L1.49984 14.6667" stroke="#333333"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="grid grid-cols-3 grid-rows-2 gap-[20px]">
+
+                <script src="./products.js"></script>
+                <!-- <product-1></product-1> -->
+                <product-1 img_path = "./imgs/offert/02.png" title="Cilindro 40 x 10" price = "Construcción" tag = "G. 49.000"></product-1>
+                <product-1 img_path = "./imgs/offert/03.png" title="Cilindro 40 x 10" price = "Construcción" tag = "G. 49.000"></product-1>
+                <product-1 img_path = "./imgs/offert/04.png" title="Cilindro 40 x 10" price = "Construcción" tag = "G. 49.000"></product-1>
+                <product-1 img_path = "./imgs/offert/05.png" title="Cilindro 40 x 10" price = "Construcción" tag = "G. 49.000"></product-1>
+                <product-1 img_path = "./imgs/offert/06.png" title="Cilindro 40 x 10" price = "Construcción" tag = "G. 49.000"></product-1>
+                <product-1 img_path = "./imgs/offert/07.png" title="Cilindro 40 x 10" price = "Construcción" tag = "G. 49.000"></product-1>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="cont">
+
+        <div class="mb-[46px] flex">
+            <img class="" src="./imgs/section/01.png" alt="">
+
+            <div class="bg-[#F7F7F7] px-[40px] pt-[68px] text-center text-[14px]">
+                <p class="font-semibold text-[24px] uppercase">OBRAS</p>
+                <p class="w-2/3">Cum cubilia ac fringilla lorem
+                    quis himenaeos velit.</p>
+                <div class="mb-[15px]">
+                    <img src="./imgs/section/2x.png" alt="">
+                    <img class="-mt-[7rem]" src="./imgs/section/2x.png" alt="">
+                </div>
+
+                <div class="text-center text-[14] leading-[23px]">
+                    <p class="font-semibold">Termopanel 4x10</p>
+                    <p class="color-2">Construcción</p>
+                    <p class="font-bold color-1">G. 75.000</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- sizes -->
+        <div class="flex justify-between mb-[80px]">
+
+            <div class="flex">
+                <h2 class="color-1 font-bold text-[48px] mr-[18px]">1.</h2>
+                <div class="flex flex-col justify-around py-2 leanding-none">
+                    <span>Cilindro 30 x 10</span>
+                    <span class="text-1 color-2">Construcción</span>
+                </div>
+            </div>
+
+            <div class="flex">
+                <h2 class="color-1 font-bold text-[48px] mr-[18px]">2.</h2>
+                <div class="flex flex-col justify-around py-2 leanding-none">
+                    <span>Cilindro 30 x 10</span>
+                    <span class="text-1 color-2">Construcción</span>
+                </div>
+            </div>
+            <div class="flex">
+                <h2 class="color-1 font-bold text-[48px] mr-[18px]">3.</h2>
+                <div class="flex flex-col justify-around py-2 leanding-none">
+                    <span>Cilindro 30 x 10</span>
+                    <span class="text-1 color-2">Construcción</span>
+                </div>
+            </div>
+            <div class="flex">
+                <h2 class="color-1 font-bold text-[48px] mr-[18px]">4.</h2>
+                <div class="flex flex-col justify-around py-2 leanding-none">
+                    <span>Cilindro 30 x 10</span>
+                    <span class="text-1 color-2">Construcción</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-[80px] flex">
+            <div class="bg-[#F7F7F7] px-[40px] pt-[68px] text-center text-[14px] flex items-center">
+                <div>
+
+                    <h2 class="text-[36px] font-bold">SOMOS 100%
+                        PARAGUAYO</h2>
+                    <div class="flex justify-center">
+
+                        <hr class="w-[116px] border-b-[#02498E] border-b-4 mt-[24]">
+                    </div>
+                </div>
+            </div>
+            <img class="" src="./imgs/section/01.png" alt="">
+
+        </div>
+
+        <div class="flex space-x-[30px]">
+
+            <!-- card1 -->
+            <div class="relative">
+                <img class="z-1" src="./imgs/section/group.png" alt="">
+                <div class="z-2 absolute p-[36px] top-0 bottom-0 left-0 right-0  text-white">
+
+                    <div class="font-bold ">
+                        <h1 class="font-normal text-1 mb-2">Construcción</h1>
+                        <p class="text-[20px] font-bold">Nueva obra terminada:</p>
+                        <p class="text-[20px] font-bold mb-6">
+                            Oficina Full Store
+                        </p>
+                        <h3 class="underline text-[11px]">VER MÁS</h3>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card2 -->
+            <div class="relative">
+                <img class="z-1" src="./imgs/section/group.png" alt="">
+                <div class="z-2 absolute p-[36px] top-0 bottom-0 left-0 right-0  text-white">
+
+                    <div class="font-bold ">
+                        <h1 class="font-normal text-1 mb-2">Construcción</h1>
+                        <p class="text-[20px] font-bold">Nueva obra terminada:</p>
+                        <p class="text-[20px] font-bold mb-6">
+                            Oficina Full Store
+                        </p>
+                        <h3 class="underline text-[11px]">VER MÁS</h3>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="./footer.js"></script>
+
+    <!-- <footer-1></footer-1> -->
+    <!-- <script src="../components.js" path="./components/footer.html"></script> -->
+
+  
+</body>
+
+</html>
