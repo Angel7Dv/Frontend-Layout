@@ -2,13 +2,13 @@
   "name": "layout",
   "version": "1.0.0",
   "description": "",
-  "homepage": "/Layout/", 
+  "homepage": "/layout/", 
   "main": "index.js",
   "scripts": {
     "deploy":"gh-pages -d src",  
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./input.css -o ./all-tailwind.css --watch",
-    "build-f": "npx tailwindcss -i ./input.css -o ./src/0termoindustria/css/global.css.css"
+    "build": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/all-tailwind.css --watch",
+    "build-f": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/0termoindustria/css/global.css.css"
   },
   "keywords": [],
   "author": "",
