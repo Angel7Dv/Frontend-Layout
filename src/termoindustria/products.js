@@ -7,7 +7,6 @@ class component extends HTMLElement {
         this.price
         this.tag 
     }
-
     static get observedAttributes(){
         return ['img_path','title','price','tag',]
     }
