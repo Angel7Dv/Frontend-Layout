@@ -16,6 +16,18 @@ feats.from('#hero-img',{
     delay: 0,
     opacity: 1
 })
+feats.to('#hero-text',{
+    duration: 1,
+    y:10,
+    delay: 0,
+    opacity: 1
+},'-=1')
+feats.from('#hero-text-2',{
+    duration: 1,
+    y:250,
+    delay: 0,
+    opacity: 1
+},'-=1')
 
 
 
