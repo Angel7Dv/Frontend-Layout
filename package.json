@@ -8,7 +8,7 @@
     "deploy":"gh-pages -d src",  
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/all-tailwind.css --watch",
-    "build-f": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/0termoindustria/css/global.css.css"
+    "build-f": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/art-portfolio/global.css"
   },
   "keywords": [],
   "author": "",

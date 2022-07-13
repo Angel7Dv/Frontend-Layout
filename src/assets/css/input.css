@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
 
 .cont{
     @apply mx-[auto] w-[1192px]
 }
-/* mx-[45px] sm:mx-[91px] md:mx-[182px]  */
 
 .input-none{
     @apply selection:active:target:hover:focus:outline-none  outline-none 
@@ -49,3 +49,6 @@
         width: 170px;
     }
 }
+
+
+*/
