@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+body::-webkit-scrollbar {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #282a44;
+    border-radius: 100vh;
+    border: 3px solid #000000;
+    width: 5px;
+}
+
+
+/* @media (min-width: 768px) {
+    main section:nth-child(even) {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    main section:nth-child(odd) {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+} */
+
+.img-marc {
+    overflow: hidden;
+    /* transform: scaleX(1.2) scaleY(1.2); */
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/*  underline animation */
+.under-mate {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(218, 214, 217));
+    background-position: 0 100%, 100% 100%;
+    background-size: 0 0.1em, 100% 0.1em;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.under-mate:hover,
+.under-mate:focus {
+    background-size: 100% 0.1em, 0 0.1em;
+}
