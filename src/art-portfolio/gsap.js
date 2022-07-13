@@ -6,7 +6,7 @@ gsap.timeline({
     repeat: 0,
     scrollTrigger: {
         trigger: '#hero',
-        start: 'top top',
+        start: 'top bottom',
         scrub: 3
     }
 }).from('#hero-img', {
@@ -29,35 +29,44 @@ gsap.timeline({
 
 // hover
 
-let marco = $('.img-marc')
-let zoom = gsap.timeline({
-    repeat: 0,
-}).to('.img', {
-    duration: 1,
-    scaleX: 1.2,
-    scaleY: 1.2
-}).from(marco, {
-    duration: 1,
-    scaleX: 1.1,
-    scaleY: 1.1
-}, '-=1')
 
-marco.addEventListener("mouseover", () => zoom.play());
-marco.addEventListener("mouseout", () => zoom.reverse());
+for (let id = 0; id < data.length; id++) {
+    let marco = $(`#img-marc_${id}`)
+    let zoom = gsap.timeline({
+        repeat: 0,
+    }).to(`#img_${id}`, {
+        duration: 1,
+        scaleX: 1.2,
+        scaleY: 1.2
+    }).to(marco, {
+        duration: 1,
+        borderRadius: 10,
+        scaleX: 0.9,
+        scaleY: 0.9
+    }, '-=1').reverse()
+    marco.addEventListener("mouseout", () => zoom.reverse());
+    marco.addEventListener("mouseover", () => zoom.play());
+
+
+    gsap.timeline({
+        repeat: 0,
+        scrollTrigger: {
+            trigger: `#img-marc_${id}`,
+            start: 'top bottom',
+            scrub: 3
+        }
+    }).from(`#img_${id}`, {
+        duration: 1,
+        y: 40,
+        delay: 0,
+        opacity: 1
+    })
+
+
+}
 
 
 
-const imgtitle = $('#img-title')
-
-const underline = gsap.timeline({
-    repeat: 0,
-}).to(imgtitle, {
-    duration: 2,
-    textDecoration: ""
-})
-
-imgtitle.addEventListener("mouseover", () => underline.play());
-imgtitle.addEventListener("mouseout", () => underline.reverse());
 
 
 

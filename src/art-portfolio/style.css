@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     main section:nth-child(even) {
         flex-direction: row;
         text-align: left;
@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
         flex-direction: row-reverse;
         text-align: right;
     }
-}
+} */
 
 .img-marc {
     overflow: hidden;
