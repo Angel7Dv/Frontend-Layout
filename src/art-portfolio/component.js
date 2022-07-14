@@ -25,10 +25,7 @@ class sctCard extends HTMLElement {
         const direction = (this.id % 2 == 0 )? "md:text-left md:flex-row" : "md:text-right md:flex-row-reverse"
         
         this.innerHTML =
-            `<section class="box flex flex-col justify-end  items-center my-48
-${direction}
-h1
-            w-[90%] md:w-[80%] mx-auto my-14 text-center">
+            `<section class="box flex flex-col justify-end  items-center my-48 ${direction} w-[90%] md:w-[80%] mx-auto my-14 text-center">
                 <div id="img-marc_${this.id}" class="img-marc mx-auto ">
                     <img id="img_${this.id}" class="img" src="./img/${this.img_path}" alt="">
                 </div>
