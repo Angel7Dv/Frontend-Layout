@@ -18,9 +18,34 @@
 transition-all ease-out duration-300 ">
 
 
+    <header id="hero" class="box w-full text-center py-12 h-[100vh]">
+        <div class="relative">
+            <h1 id="hero-text" class="absolute right-0 left-0 translate-y-[15rem]
+            text-5xl md:text-[7rem] lg:text-[12rem] font-bold text-gray-800            
+            ">
+                @ricarte.art</h1>
+
+            <div class="absolute right-0 left-0 w-[70%] sm:w-[300px] h-[500px] mx-auto flex flex-col justify-center">
+                <div id="hero-img" style="background-image: url('./img/prof.jfif');" class="absolute right-0 w-full h-full left-0 mx-auto bg-cover bg-center bg-no-repeat z-1
+            rounded
+            ">
+                    <div class="bg-slate-900 h-full bg-opacity-40 relative
+                    flex flex-col justify-center">
+                    </div>
+                </div>
+                <h2
+                    class="py-4 w-full right-0 left-0 absolute translate-y-[10rem] bg-slate-900 bg-opacity-30 text-[1rem] font-black ">
+                    Arte digital</h2>
+            </div>
+
+            <h1 id="hero-text-2" class=" text-5xl sm:text-5xl md:text-[5rem] font-bold z-1 translate-y-[20rem]">
+                @ricarte.art</h1>
+
+        </div>
+    </header>
 
     <main id="main_section">
-    
+
         <script>
             const main = document.getElementById("main_section")
             const data = [
@@ -47,38 +72,14 @@ transition-all ease-out duration-300 ">
     </main>
 
 
-    <footer id="hero" class="box w-full text-center py-12 h-[100vh]">
-        <div class="relative">
-            <h1 id="hero-text" class="absolute right-0 left-0 translate-y-[15rem]
-                text-5xl md:text-[7rem] lg:text-[12rem] font-bold text-gray-800            
-                ">
-                @ricarte.art</h1>
-
-            <div class="absolute right-0 left-0 w-[70%] sm:w-[300px] h-[500px] mx-auto flex flex-col justify-center">
-                <div id="hero-img" style="background-image: url('./img/prof.jfif');" class="absolute right-0 w-full h-full left-0 mx-auto bg-cover bg-center bg-no-repeat z-1
-                rounded
-                ">
-                    <div class="bg-slate-900 h-full bg-opacity-40 relative
-                        flex flex-col justify-center">
-                    </div>
-                </div>
-                <h2
-                    class="py-4 w-full right-0 left-0 absolute translate-y-[10rem] bg-slate-900 bg-opacity-30 text-[1rem] font-black ">
-                    Arte digital</h2>
-            </div>
-
-            <h1 id="hero-text-2" class=" text-5xl sm:text-5xl md:text-[5rem] font-bold z-1 translate-y-[20rem]">
-                @ricarte.art</h1>
-
-        </div>
-    </footer>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+    <script src="../assets/gsap/gsap.js"></script>
+    <script src="../assets/gsap/ScrollTrigger.js"></script>
     <script src="gsap.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script> -->
-    
+
 
 
 </body>
